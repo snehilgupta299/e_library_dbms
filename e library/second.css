@@ -1,0 +1,90 @@
+*
+{
+  box-sizing: border-box;
+}
+
+
+.container1
+{
+  display: flex;
+  margin:81px 35px 0px 0px ;
+   width:900px;
+   height: 264px;
+   border:3px solid blue;
+    border-bottom:0px;
+}
+.container2
+{
+
+  display: flex;
+  margin:-22px 35px 0px 0px ;
+   width:900px;
+   height: 264px;
+   border:3px solid black;
+   border-top:0px;
+   border:3px solid blue;
+}
+
+html
+{
+ background: url('images/dashboard.jpg') no-repeat center center/cover;
+}
+
+.box
+{
+  display: flex;
+  width:248px;
+  height:211px;
+  border:2px solid #51afff ;
+  padding:24px;
+  margin: 24px;
+  font-size:34px;
+  cursor: pointer;
+  background:none;
+}
+.box:hover
+{
+  background-color:;
+  box-shadow:0px 0px 10px 4px blue;
+}
+h1
+{
+  margin:0px 0px 0px 0px ;
+  font-size:50px;
+  color:#0040ad;
+}
+button
+{
+  float:right;
+  margin:-52px 9px 0px 0px ;
+  padding:10px;
+  border:3px solid purple;
+  font-size:28px;
+  background:none;
+
+}
+button:active
+{
+  display:ease-in;
+  background-color:blue;
+  color:white;
+}
+.cart
+{
+ float:right;
+ margin:78px -141px 0px 0px ;
+  display: block;
+  border-radius: 25px;
+    border:3px solid #51afff;
+    background:none;
+}
+.cart:hover
+{
+  background-color:#51afff;
+}
+img
+{
+  width:99px;
+  height:73px;
+
+}

@@ -1,0 +1,158 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--chakra-fonts-body);
+    font-family: 'Courier Prime', monospace;
+
+    /*box-sizing: border-box; */
+}
+img
+{
+  margin:-5px;
+  width:150px;
+  height: 150px;
+}
+.marq
+{
+  display:block;
+  width: 450px;
+ margin:auto;
+ color:blue;
+}
+#head
+{
+margin: -77px 592px ;
+float:center;
+/*
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+*/
+  font-size:32px;
+  color:#ce41ce;
+  border:5px solid black;
+  width:430px;
+  height:123px;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  padding-top:2px;
+  flex-direction:column;
+
+  box-sizing: border-box;
+animation:border 1500ms infinite;
+border-radius:18%;
+ //background-color:#ff69b4;
+}
+html
+{
+  background-image:url('images/open.jpg');
+  background-repeat: no-repeat;
+}
+.container1
+{
+  border:2px solid black;
+  display:flex;
+  flex-direction:column;
+  margin:144px 0px 0px 740px;
+  width:496px;
+  height:418px;
+align-items: center;
+border-radius: 3px;
+}
+.container2
+{
+  float:left;
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  margin:217px 0px 0px 107px;
+  border:2px solid black;
+  width:496px;
+  height:321px;
+
+}
+input[type="text"]
+{
+  margin:5px;
+  padding:25px;
+  border: 3px solid black;
+  font-size:26px;
+  cursor:pointer;
+  background:none;
+  font-weight:bold;
+  color:black;
+}
+input[type="email"]
+{
+  margin:5px;
+  padding:25px;
+  border: 3px solid black;
+  font-size:26px;
+  cursor:pointer;
+  background:none;
+  font-weight:bold;
+  color:#df1f81;
+}
+input[type="password"]
+{
+  margin:5px;
+  padding:25px;
+  border: 3px solid black;
+  font-size:26px;
+  cursor:pointer;
+  background:none;
+  font-weight:bold;
+  color:black;
+
+}
+input[type="submit"]
+{
+  border:3px solid #51afff;
+  width:100px;
+  height: 50px;
+  font-size:20px;
+  cursor:pointer;
+  //  margin-left:99px;
+    border-radius:8px;
+    background-color:#51afff;
+}
+.submit:hover
+{
+  background-color:white;
+}
+h2
+{
+  color:blue;
+}
+#entry
+{
+  padding:2px 0px 0px 105px;
+}
+
+@keyframes border
+ {
+   0%
+   {
+     box-shadow:#ff69b4  0 0 0 0;
+   }
+   75%
+   {
+     box-shadow:#ff69b400 0 0 0 16px;
+
+   }
+}
+.helpsection
+{
+  border: 3px solid black;
+position: absolute;
+top: 16px;
+right: 25px;
+width: 79px;
+height: 140px;
+align-items: center;
+padding-left: 12px;
+padding-right: 6px;
+}
+}

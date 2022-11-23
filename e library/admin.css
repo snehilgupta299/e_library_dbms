@@ -1,0 +1,286 @@
+*
+{
+  font-family: 'Courier Prime', monospace;
+
+}
+    html {
+     background: url('images/back.jpg') no-repeat center/cover;
+      background-position-y: 6%;
+    //  background-color:#ffb1f5;
+      background-attachment: fixed;
+
+}
+.imp
+{
+  display:flex;
+  width:96vw;
+  height:100%;
+  flex-wrap:wrap;
+  justify-content:space-between;
+padding:3px;
+}
+    .main {
+      display: flex;
+      flex-direction:column;
+      height: 100%;
+      width:1000px;
+      flex-wrap:wrap;
+    }
+    .info {
+      width: 978px;
+      height: 200px;
+      min-width:500px;
+      padding:3px;
+      /*border:3px solid black;*/
+
+    }
+
+    .bookadd {
+ display:flex;
+      border: 2px solid black;
+      width: 440px;
+      height: 486px;
+      margin-right:17px;
+      margin-top:25px;
+      flex-direction: column;
+      border-radius:3px;
+     /*position:fixed;
+      right:5px; */
+    }
+
+    .list {
+      display: flex;
+    /*  border: 2px solid black;*/
+      width: 986px;
+      height: 100%;
+      min-width:500px;
+      margin-top:50px;
+      flex-direction:column;
+
+    }
+img
+{
+  width:199px;
+  height:195px;
+}
+h1
+{
+  font-size:40px;
+}
+.content
+{
+display:flex;
+}
+.cont
+{
+  align-items:center;
+  justify-content:center;
+  display:flex;
+  flex-direction:column;
+  width:753px;
+  height:141px;
+  position:relative;
+  left:197px;
+  top:-111px;
+/*  border:3px solid black;*/
+}
+.cred,.logout
+{
+  width:303px;
+  height:43px;
+font-size:20px;
+  background:none;
+
+}
+.cred:hover
+{
+  background-color:lightblue;
+  cursor:pointer;
+}
+.logout:hover
+{
+  background-color:lightblue;
+  cursor:pointer;
+}
+.logout
+{
+  border:3px solid purple;
+}
+.cred
+{
+  border:3px solid orange;
+
+}
+.entries
+{
+  display: flex;
+  flex-direction: column;
+//  background-color:#9bc8ff;
+  background-color:#ffb1f5;
+
+  margin-left:5px;
+  margin-bottom:35px;
+  border: 2px solid black;
+  width: 979px;
+  height:253px;
+}
+.name
+{
+  display:flex;
+/*  border:3px solid black; */
+height:49px;
+font-size:16px;
+align-items:flex-end;
+}
+.first
+{
+  display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 979px;
+    height: 32px;
+}
+.section
+{
+     display: flex;
+  /*    border: 2px solid black;*/
+      width: 110px;
+      height: 48px;
+      align-items: flex-end;
+}
+.datesection
+{
+  display:flex;
+width:60%;
+  height:39px;
+  /*border:2px solid black;*/
+  margin-top:-2px;
+  justify-content:space-between;
+  align-items:flex-end;
+  font-size:19px;
+}
+#bookcount
+{
+  margin-top:5px;
+/*  border:2px solid black;*/
+}
+.countsection
+{
+  display: flex;
+  /*border: 3px solid green; */
+    height: 167px;
+    width: 825px;
+    flex-wrap: wrap;
+}
+#subcount
+{
+    margin: 5px;
+    display: flex;
+    border: 2px solid black;
+    width: 236px;
+    height: 42px;
+}
+.last
+{
+  display:flex;
+}
+.view
+{
+  margin-top:92px;
+  width:121px;
+  height:47px;
+  border:2px solid black;
+  font-size:22px;
+  background-color: #f7d858;
+  font-weight: bolder;
+}
+.view:hover
+{
+  cursor: pointer;
+}
+button:hover
+{
+  border:3px solid black;
+
+}
+.subselect
+{
+    display: flex;
+      width: 428px;
+      height: 187px;
+      /*border: 2px solid black;*/
+      margin-left: 3px;
+      margin-top:-8px;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+}
+.eachselect
+{
+  display:flex;
+  width:87px;
+  height:35px;
+  font-size:22px;
+/*  border: 2px solid black;*/
+  border-radius: 3px;
+padding:3px;
+margin:10px;
+}
+input[type="radio"]
+{
+  width:24px;
+  height:21px;
+}
+input[type="text"]
+{
+  margin-top:3px;
+  width:406px;
+  height:61px;
+  padding:2px;
+  margin-left:8px;
+  background-color:white;
+  font-size:20px;
+  font-weight: bolder;
+}
+input[type="number"]
+{
+  background-color:white;
+  font-weight: bolder;
+  margin-top:3px;
+  width:79px;
+  height:46px;
+  margin-left:8px;
+  margin-top:7px;
+  padding:2px;
+  font-size:20px;
+}
+.add
+{
+  width:143px;
+  height:58px;
+  margin:5px;
+  margin-top:32px;
+  background-color:#fff200;;
+font-size:30px;
+border:3px solid black;
+}
+.add:hover
+{
+  background-color:#7fff00;
+  border:3px solid black;
+
+}
+.help
+{
+  width:309px;
+  height:75px;
+  margin:20px;
+  margin-top:56px;
+  background-color:#0bf9a7;
+  border:3px solid black;
+font-size:28px;
+}
+.help:hover
+{
+  border:3px solid black;
+}

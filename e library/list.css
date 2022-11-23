@@ -1,0 +1,52 @@
+html
+{
+    background: url("images/background_for_books.jpg") no-repeat center center/cover;
+  width:100vw;
+  height:100vh;
+}
+li,h1
+{
+  color:yellow;
+}
+
+
+.list
+{
+  padding:25px;
+  margin-top:93px;
+}
+li
+{
+ font-size:30px;
+ list-style:none;
+ line-height:50.7px;
+}
+input[type="checkbox"]
+{
+width:20px;
+height:20px;
+}
+input
+{
+padding:5px;
+cursor:pointer;
+font-size:20px;
+}
+.reset
+{
+border:2px solid red;
+background-color:#ff3030;
+}
+.update
+{
+border:2px solid green;
+background-color:#3dff3a;
+}
+input:hover
+{
+background-color:white;
+}
+h1
+{
+font-size:35px;
+}
